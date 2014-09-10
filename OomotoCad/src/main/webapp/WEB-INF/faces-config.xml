@@ -8,5 +8,23 @@
 	<application>
 		<el-resolver>org.springframework.web.jsf.el.SpringBeanFacesELResolver</el-resolver>
 	</application>
+	
+	<application>
+		<resource-bundle>
+			<base-name>resources.labels</base-name>
+			<var>labels</var>
+		</resource-bundle>
+		<locale-config>
+			<default-locale>pt</default-locale>
+			<supported-locale>en</supported-locale>
+		</locale-config>
+	</application>
+
+	<application>
+		<resource-bundle>
+			<base-name>resources.messages</base-name>
+			<var>messages</var>
+		</resource-bundle>
+	</application>
 
 </faces-config>

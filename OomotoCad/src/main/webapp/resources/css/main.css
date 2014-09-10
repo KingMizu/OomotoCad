@@ -1,0 +1,13 @@
+#mainFooter {
+	font-family: Verdana,sans-serif;
+	color: grey;
+	font-size: 10px;
+	font-weight: bolder;
+}
+
+#mainHeader {
+	font-family: Verdana,sans-serif;
+	color: black;
+	font-size: 60px;
+	font-weight: bolder;
+}
