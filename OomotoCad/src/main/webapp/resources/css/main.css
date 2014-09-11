@@ -1,3 +1,11 @@
+/*.ui-layout, .ui-layout-doc, .ui-layout-unit, .ui-layout-wrap, .ui-layout-bd, .ui-layout-hd {
+	border: none;
+} */
+
+.ui-widget {
+	font-size: 90% !important;	
+}
+
 #mainFooter {
 	font-family: Verdana,sans-serif;
 	color: grey;
