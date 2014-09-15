@@ -13,9 +13,12 @@ public class CategoryEntity extends BaseEntities<Long>
 	
 	private Byte[] picture;
 
-	public CategoryEntity(String categoryName, String description, Byte[] picture)
+	public CategoryEntity() { }
+	
+	public CategoryEntity(Long id, String categoryName, String description, Byte[] picture)
 	{
 		super();
+		this.setId(id);;
 		this.categoryName = categoryName;
 		this.description = description;
 		this.picture = picture;
@@ -41,11 +44,13 @@ public class CategoryEntity extends BaseEntities<Long>
 		this.description = description;
 	}
 
-	public Byte[] getPicture() {
+	public Byte[] getPicture() 
+	{
 		return picture;
 	}
 
-	public void setPicture(Byte[] picture) {
+	public void setPicture(Byte[] picture) 
+	{
 		this.picture = picture;
 	}
 	
